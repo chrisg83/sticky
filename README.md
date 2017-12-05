@@ -1,13 +1,15 @@
-# Sticky
+# Sticky-icky
 
-Sticky is a jQuery plugin that gives you the ability to make any element on your page always stay visible.
+Sticky-icky is a jQuery plugin that gives you the ability to make any element on your page always stay visible to the user.
 
-## Sticky in brief
+## Sticky-icky in brief was based a the 'Sticky JS' Concept http://stickyjs.com 
+
+The 'Icky' Update just expands on the orignal concept of one stickly element and allows you to have multiple.
 
 This is how it works:
 
-- When the target element is about to be hidden, the plugin will add the class `className` to it (and to a wrapper added as its parent), set it to `position: fixed` and calculate its new `top`, based on the element's height, the page height and the `topSpacing` and `bottomSpacing` options.
-- That's it. 
+- When the target element is about to be hidden, the plugin will add the class `className` to it (and to a wrapper added as its parent), set the element to `position: fixed` and calculate its new `top`,this is the distance to the top of the page, it is also based on the element's height, the page height and the `topSpacing` and `bottomSpacing` options.
+- But That's it. You shouldn't need to worry about any other elements code interfearing with its position. 
 In some cases you might need to set a fixed width to your element when it is "sticked".
 But by default (`widthFromWrapper == true`) sticky updates elements's width to the wrapper's width.
 Check the `example-*.html` files for some examples.
