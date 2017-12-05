@@ -8,7 +8,7 @@ The 'Icky' Update just expands on the orignal concept of one stickly element and
 
 This is how it works:
 
-- When the target element is about to be hidden, the plugin will add the class `className` to it (and to a wrapper added as its parent), set the element to `position: fixed` and calculate its new `top`,this is the distance to the top of the page, it is also based on the element's height, the page height and the `topSpacing` and `bottomSpacing` options.
+- When the target element is about to be hidden, the plugin will add the class `className` to it (and to a wrapper added as its parent), set the element to `position: fixed` and calculate its new `top`,this is the distance to the top of the page, it is also based on the element's height and the `topSpacing` and `bottomSpacing` options.
 - But That's it. You shouldn't need to worry about any other elements code interfearing with its position. 
 In some cases you might need to set a fixed width to your element when it is "sticked".
 But by default (`widthFromWrapper == true`) sticky updates elements's width to the wrapper's width.
