@@ -4,13 +4,13 @@ Sticky-icky is a jQuery plugin that gives you the ability to make any element on
 
 ## Sticky-icky in brief was based a the 'Sticky JS' Concept  
 
-The Sticky Js i used can be found here: http://stickyjs.com
-The 'Icky' Update just expands on the orignal concept of one stickly element and allows you to have multiple.
+The Sticky Js I used can be found here: http://stickyjs.com
+The 'Icky' Update just expands on the orignal concept of one sticky element and allows you to have multiple.
 
 This is how it works:
 
 - When the target element is about to be hidden, the plugin will add the class `className` to it (and to a wrapper added as its parent), set the element to `position: fixed` and calculate its new `top`,this is the distance to the top of the page, it is also based on the element's height and the `topSpacing` and `bottomSpacing` options.
-- But That's it. You shouldn't need to worry about any other elements code interfearing with its position. 
+- That's it. 
 In some cases you might need to set a fixed width to your element when it is "sticked".
 But by default (`widthFromWrapper == true`) sticky updates elements's width to the wrapper's width.
 Check the `example-*.html` files for some examples.
@@ -71,6 +71,7 @@ Next, assign the “sticker” css id (or “sticker2”, “sticker3”, etc.) 
 If you have more then 
 - Edit your css to position the elements (check the examples in `example-*.html`).
 
+## Unstick 
 - To unstick an object
 
 ```html
